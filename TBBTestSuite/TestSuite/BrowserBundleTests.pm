@@ -131,6 +131,7 @@ our @tests = (
             TorBrowser/Tor/PluggableTransports/zope/interface/_zope_interface_coptimizations.so
             TorBrowser/Tor/PluggableTransports/meek-client
             TorBrowser/Tor/PluggableTransports/obfs4proxy
+            TorBrowser/Tor/PluggableTransports/snowflake-client
             ) ],
     },
     {
