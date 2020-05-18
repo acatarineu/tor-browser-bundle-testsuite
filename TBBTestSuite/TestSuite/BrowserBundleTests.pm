@@ -175,6 +175,9 @@ our @tests = (
         command         => [ 'readelf', '-d' ],
         check_output    => sub { ! ( $_[0] =~ m/runpath/ ) },
         enable          => sub { $OSNAME eq 'linux' },
+        skip_files   => [ qw(
+            updater
+            ) ],
     },
     {
         name            => 'otool_PIE',
